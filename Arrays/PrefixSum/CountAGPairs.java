@@ -21,6 +21,7 @@ keep the count of "a" as we found while travesring and if a "g" is found it can 
                 countA++;
             if (str.charAt(i)=='g'){
                 count+=countA;
+
             }
         }
         return count;
